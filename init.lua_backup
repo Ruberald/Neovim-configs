@@ -1,0 +1,4 @@
+require("heinrichskies.remap")
+
+vim.opt.relativenumber = true
+vim.opt.number = true
