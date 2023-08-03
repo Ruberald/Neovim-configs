@@ -12,4 +12,4 @@ vim.opt.expandtab = true
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
-vim.cmd([[highlight Pmenu ctermbg=white]])
+vim.cmd([[highlight Pmenu ctermbg=black ctermfg=white]])
