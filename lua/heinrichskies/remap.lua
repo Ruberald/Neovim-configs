@@ -10,3 +10,6 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 vim.keymap.set("n", "<leader>e", ":lua vim.diagnostic.open_float()<cr>")
 vim.keymap.set("n", "<leader>t", ":lua vim.lsp.buf.code_action()<cr>")
+
+vim.keymap.set("v", "<C-i>", "<C-a>")
+vim.keymap.set("v", "g<C-i>", "g<C-a>")

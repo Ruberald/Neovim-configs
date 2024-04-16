@@ -9,4 +9,16 @@ require('lspconfig').lua_ls.setup(lsp.nvim_lua_ls())
 
 vim.cmd([[hi SignColumn ctermbg=none]])
 
+-- local server = {
+--     rust_analyzer = {
+--         settings = {
+--             ["rust_analyzer"] = {
+--                 checkOnSave = {
+--                     command = "clippy",
+--                 }
+--             }
+--         }
+--     }
+-- }
+
 lsp.setup()
