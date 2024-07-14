@@ -1,4 +1,5 @@
-require("heinrichskies.remap")
+require("config.remap")
+require("config.lazy")
 
 vim.opt.relativenumber = true
 vim.opt.number = true
