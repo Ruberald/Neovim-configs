@@ -8,7 +8,7 @@ return {
         "nvim-treesitter/nvim-treesitter", build = ":TSUpdate"
     },
 
-    {'VonHeikemen/lsp-zero.nvim', branch = 'v4.x'},
+    -- {'VonHeikemen/lsp-zero.nvim', branch = 'v4.x'},
     {'williamboman/mason.nvim'},
     {'williamboman/mason-lspconfig.nvim'},
     {'neovim/nvim-lspconfig'},
