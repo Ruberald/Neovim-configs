@@ -1,7 +1,7 @@
 require("config.remap")
 require("config.lazy")
-require("config.lsp")
 require("config.cmp")
+require("config.lsp")
 
 vim.opt.relativenumber = true
 vim.opt.number = true
@@ -14,6 +14,7 @@ vim.opt.expandtab = true
 
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
+vim.opt.foldmethod = "indent"
 
 vim.cmd([[colorscheme retrobox]])
 vim.cmd([[highlight Pmenu ctermbg=black ctermfg=white]])
